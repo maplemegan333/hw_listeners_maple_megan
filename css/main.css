@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #75dbcd;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #c9dbba;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+input {
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
