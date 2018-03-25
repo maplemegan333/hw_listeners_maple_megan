@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #0b4f6c;
+	font-size: 2em;
+	text-align: center;
+}
+
+body.alternate {
+	background-color: red;
+}
+
+h1 {
+	font-family: 'IBM Plex Serif', serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+#container{
+	text-align: center;
+	width: 75%;
+	background-color: #20bf55;
+	margin: auto;
+
+}
+
+button {
+	height: 10vh;
+	width: 75%;
+	background-color: #01baef;
+	margin: 10px;
+	color: #ffffff;
+}
+
+p {
+	width: 75%;
+	margin: auto;
+	color: #ffffff;
+}
+
+#CatWrapper{
+  display:none;
+  text-align: center;
+  margin:1em auto;
+}
+
+#CatWrapper img{
+  width:50%;
+}
